@@ -1,0 +1,852 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    height: 0 auto;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #000;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.h-info-block{
+    display: flex;
+    margin-left: 405px;
+}
+.h-info-block p{
+    color: #969696;
+    font-size: 12px;
+    font-weight: 400;
+}
+.h-info-block p a{
+    color: #969696;
+    text-decoration: none;  
+}
+.h-info-block p span{
+    padding: 0 14px
+}
+.h-info-block p .fa-phone{
+    margin-right: 16px;
+}
+.h-log-block{
+    display: flex;
+    margin-right: 405px;
+}
+.h-log-block p{
+    color: #969696;
+    font-size: 12px;
+    font-weight: 400; 
+}
+.h-log-block a{
+    color: #969696;
+    font-size: 12px;
+    font-weight: 400; 
+    text-decoration: none;
+    transition: .5s;
+}
+.h-log-block a:hover{
+    color: #fff;
+}
+.h-log-block .fa-sign-in{
+    margin-right: 12px;
+}
+.h-log-block .h-auth{
+    padding-right: 3px;
+}
+.h-log-block .h-reg{
+    padding-left: 3px;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: #0F0F0F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .logo{
+    margin-left: 405px;
+}
+.menu .nav-bar{
+    display: flex;
+    margin-right: 405px;
+}
+.menu .nav-bar .nav{
+    display: flex;
+}
+.menu .nav-bar .nav a{
+    display: flex;
+    align-items: center;
+    color: #969696;
+    width: 0 auto;
+    height: 80px;
+    font-size: 14px;
+    font-weight: 400; 
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+}
+.menu .nav-bar .nav a:hover{
+    background-color: #1F1F1F;
+    color: #fff;
+}
+.menu .nav-bar .nav-btn{
+    display: flex;
+    align-items: center;
+}
+.menu .nav-bar .nav-btn a{
+    color: #f1f1f1;
+    font-size: 16px;
+    padding: 0 21px;
+}
+.menu .nav-bar .nav-btn a:hover{
+    color: #fff;
+    padding: 0 19.5px;
+    font-size: 20px;
+}
+.welcome-block{
+    position: relative;
+    width: 100%;
+    max-height: 810px;
+    background-image: url(../img/photo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 160px;
+}
+.welcome-block .w-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 320px;
+    height: 320px;
+    border: 4px solid #fff;
+}
+.welcome-block .w-title hr{
+    width: 180px;
+    margin: 10px 0 7px 0;
+    background-color: #fff;
+}
+.welcome-block .w-title h2{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.welcome-block p{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5;
+    max-width: 730px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+.first_section{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1920px;
+}
+.first_section hr{
+    margin: 0 auto;
+    max-width: 120px;
+    max-height: 1px;
+    background-color: #fff;
+}
+.first_section .season{
+    background-color: #000;
+    width: 1040px;
+    max-height: 730px;
+    text-align: center;
+}
+.first_section .season h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin: 93px 0 40px 0;
+}
+.first_section .season .season-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+}
+.first_section .season .season-products .s-products p{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: start;
+    margin-top: 10px;
+}
+.first_section .season .season-products .s-products img{
+    max-width: 260px;
+    max-height: 325px;
+}
+.first_section .season .season-products .s-products h3{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    margin-top: 25px;
+}
+.first_section .season .season-products .s-products p{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: start;
+    margin-top: 10px;
+}
+.first_section .new-collection{
+    background-image: url(../img/photo3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 880px;
+    height: 730px;
+    text-align: center;
+}
+.first_section .new-collection h2{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 484px 0 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.first_section .new-collection hr{
+    margin-bottom: 50px;
+}
+.first_section .new-collection a{
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 28px;
+    transition: .8s all;
+}
+.first_section .new-collection a:hover{
+    background: #fff;
+    color: #000;
+}
+.second_section{
+    max-width: 1920px;
+    height: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.second_section .collection-photo{
+    width: 880px;
+    height: 500px;
+}
+.second_section .collection-photo img{
+    width: 880px;
+    height: 600px;
+}
+.second_section .collection-contents{
+    width: 1040px;
+    max-height: 600px;
+    background-color: #000;
+    text-align: center;
+}
+.second_section .collection-contents h2{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 100px 0 40px 0;
+}
+.second_section .collection-contents p{
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    max-width: 471px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.second_section .collection-contents hr{
+    max-width: 120px;
+    color: #fff;
+    margin: 0 auto;
+}
+.second_section .collection-contents a{
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 28px;
+    transition: .8s all;
+}
+.second_section .collection-contents a:hover{
+    background: #fff;
+    color: #000;
+}
+.new-arrivals{
+    width: 100%;
+    min-height: 1290px;
+    max-height: 2700px;
+    background: #000;
+}
+.new-arrivals h2{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 120px 0 40px 0;
+}
+.new-arrivals hr{
+    max-width: 120px;
+    color: #fff;
+    margin: 0 auto;
+}
+.new-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 60px 395px 0 395px;
+}
+.n-products{
+    margin: 0 11px 40px 11px;
+}
+.new-products .n-products img{
+    max-width: 260px;
+    max-height: 325px;
+}
+.new-products .n-products h3{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    margin-top: 25px;
+}
+.new-products .n-products p{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: start;
+    margin-top: 10px;
+}
+.our-brands{
+    width: 100%;
+    height: 363px;
+    background: #0F0F0F;
+    text-align: center;
+}
+.our-brands h2{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 60px 0 40px 0;
+}
+.our-brands hr{
+    max-width: 120px;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.our-brands img{
+    width: 255px;
+    height: 94px;
+    margin: 0 15px;
+}
+.footer{
+    width: 100%;
+    height: 450px;
+}
+.footer .f-top{
+    height: 400px;
+    background-image: url(../img/photo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+.footer .f-top h3{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: start;
+    text-transform: uppercase;
+    padding: 80px 0 40px 0;
+}
+.footer .f-top p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: start;
+    
+}
+.footer .f-top .f-about-store{
+    max-width: 350px;
+    height:  0 auto;
+    margin-right: 30px;
+}
+.footer .f-top .f-categories{
+    max-width: 350px;
+    height:  0 auto;
+}
+.footer .f-top .f-categories .categories-link{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .f-top .f-categories .categories-link a{
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 20px;
+    background-color: #0F0F0F;
+    margin: 0 20px 20px 0; 
+}
+.footer .f-top .f-categories a:hover{
+    background-color: #fff;
+    color: #0F0F0F;
+}
+.footer .f-top .f-mailing{
+    max-width: 350px;
+    height:  0 auto;
+    margin-left: 30px;
+}
+.footer .f-top .f-mailing p{
+    margin-bottom: 37px;
+}
+.footer .f-top .f-mailing .mail_inp {
+    max-width: 350px;
+    height: 42px;
+    display: inline;
+}
+.footer .f-top .f-mailing .mail_inp input{
+    float: left;
+    border: none;
+    outline: none;
+    background: none;
+    width: 200px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.4);
+    text-align: center center;
+    color: #c0c0c0;
+    font-size: 16px;
+    padding-left: 15px;
+    border-radius: unset;
+}
+.footer .f-top .f-mailing .mail_inp input::placeholder{
+    color: #c0c0c0;
+    font-size: 16px;
+}
+.footer .f-top .f-mailing .mail_inp input:hover,:focus{
+    color: #c2c2c2;
+    font-size: 16px;
+}
+.footer .f-top .f-mailing .mail_inp button{
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: unset;
+    width: 130px;
+    height: 42px;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    text-align: center center;
+    transition: .9s all;
+}
+.footer .f-top .f-mailing .mail_inp button:hover{
+    background: #fff;
+    color: #000;
+}
+.footer .f-bootom{
+    background: #000;
+    max-width: 1920px;
+    height: 50px;
+    display: flex;
+    align-items: center center;
+    justify-content: space-between;
+    padding: 0 405px;
+}
+.footer .f-bootom p{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 17px;
+    
+}
+.footer .f-bootom a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer .f-bootom a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+@media only screen and (max-width : 1920px){
+    .new-products{
+        margin: 60px 300px 0 300px;
+    }
+}
+@media only screen and (max-width : 1736px){
+    .new-products{
+        margin: 60px 250px 0 250px;
+    }
+}
+@media only screen and (max-width : 1680px){
+    .h-info-block{
+        margin-left: 350px;
+    }
+    .h-log-block{
+        margin-right: 350px;
+    }
+    .menu .logo{
+        margin-left: 350px;
+    }
+    .menu .nav-bar{
+        margin-right: 350px;
+    }
+    .first_section .season h2{
+        margin: 43px 0 40px 0;
+    }
+    .first_section .season .season-products .s-products{
+        margin: 0 15px;
+    }
+    .first_section .season .season-products .s-products img{
+        max-width: 230px;
+        max-height: 295px;
+    }
+    .first_section .new-collection{
+        background-position: left top;
+        width: 800px;
+        height: 650px;
+    }
+    .first_section .new-collection h2{
+        margin: 400px 0 30px 0;
+    }
+    .new-products{
+        margin: 60px 150px 0 150px;
+    }
+    .second_section .collection-photo{
+        width: 750px;
+        height: 470px;
+    }
+    .second_section .collection-photo img{
+        width: 750px;
+        height: 470px;
+    }
+    .second_section .collection-contents h2{
+        margin: 30px 0 30px 0;
+    }
+    .second_section .collection-contents p{
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width : 1430px){
+    .h-info-block{
+        margin-left: 250px;
+    }
+    .h-log-block{
+        margin-right: 250px;
+    }
+    .menu .logo{
+        margin-left: 250px;
+    }
+    .menu .nav-bar{
+        margin-right: 250px;
+    }
+    .second_section .collection-photo{
+        width: 700px;
+        height: 420px;
+    }
+    .second_section .collection-photo img{
+        width: 700px;
+        height: 420px;
+    }
+    .second_section .collection-contents h2{
+        margin: 30px 0 30px 0;
+    }
+    .second_section .collection-contents p{
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .new-products{
+        margin: 60px 50px 0 50px;
+    }
+    .footer .f-bootom{
+        background: #000;
+        max-width: 1920px;
+        height: 50px;
+        display: flex;
+        align-items: center center;
+        justify-content: space-between;
+        padding: 0 205px;
+    }
+}
+@media only screen and (max-width : 1280px){
+    .h-info-block{
+        margin-left: 100px;
+    }
+    .h-log-block{
+        margin-right: 100px;
+    }
+    .menu .logo{
+        margin-left: 120px;
+    }
+    .menu .nav-bar{
+        margin-right: 120px;
+    }
+    .welcome-block{
+        padding-top: 20px;
+        background-size: 120%;
+    }
+    .welcome-block .w-title{
+        width: 270px;
+        height: 270px;
+    }
+    .welcome-block .w-title img{
+        width: 160px;
+    }
+    .welcome-block p{
+        margin-top: 40px;
+        padding-bottom: 50px;
+    }
+    .first_section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    .first_section .season{
+        width: 100%;
+    }
+    .first_section .season .season-products{
+        margin-bottom: 50px;
+    }
+    .first_section .new-collection{
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: 85em;
+        width: 100%;
+        height: 730px;
+    }
+    .second_section{
+        height: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .second_section .collection-contents{
+        width: 100%;
+        height: 0 auto;
+        
+    }
+    .second_section .collection-photo{
+        width: 100%;
+        height: 600px;
+    }
+    .second_section .collection-photo img{
+        width: 100%;
+        height: 600px;
+    }
+}
+@media only screen and (max-width : 1170px){
+    .our-brands{
+        width: 100%;
+        height: 300px;
+        background: #0F0F0F;
+        text-align: center;
+    }
+    .our-brands img{
+        width: 215px;
+        height: 64px;
+    }
+    .footer .f-top{
+        padding: 0 50px;
+    }
+    .footer .f-top .f-categories .categories-link a{
+        margin: 0 10px 10px 0; 
+    }
+    .footer .f-top .f-mailing .mail_inp input{
+        width: 150px;
+    }
+    .footer .f-top .f-mailing .mail_inp button{
+        width: 90px;
+        font-size: 10px;  
+    }
+}
+@media only screen and (max-width : 1024px){
+    .h-info-block{
+        margin-left: 50px;
+    }
+    .h-log-block{
+        margin-right: 50px;
+    }
+    .menu .logo{
+        margin-left: 50px;
+    }
+    .menu .nav-bar{
+        margin-right: 50px;
+    }
+    .welcome-block{
+        padding-top: 20px;
+        background-size: cover;
+    }
+    .first_section .new-collection{
+        background-size: cover;
+    }
+    .our-brands{
+        width: 100%;
+        height: 380px;
+        background: #0F0F0F;
+        text-align: center;
+    }
+    .our-brands img{
+        width: 215px;
+        height: 64px;
+        margin: 10px 40px 0 40px;
+    }
+    .footer .f-top .f-about-store{
+        max-width: 220px;
+        height:  0 auto;
+        margin-right: 30px;
+    }
+    .footer .f-top .f-mailing .mail_inp input{
+        width: 120px;
+    }
+    .footer .f-top .f-mailing .mail_inp button{
+        width: 90px;
+        font-size: 10px;   
+    }
+    .footer .f-bootom{
+        padding: 0 55px;
+    }
+}
+@media only screen and (max-width : 800px){
+    .footer .f-top .f-mailing .mail_inp input{
+        width: 100px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .footer .f-top .f-mailing .mail_inp button{
+        width: 70px;
+        font-size: 7px;   
+        height: 35px;
+    }
+    .footer .f-top .f-mailing .mail_inp input::placeholder{
+        font-size: 10px;
+    }
+    .footer .f-top .f-mailing .mail_inp input:hover,:focus{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width : 800px){
+    .footer .f-top .f-mailing .mail_inp input{
+        width: 100px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .footer .f-top .f-mailing .mail_inp button{
+        width: 70px;
+        font-size: 7px;   
+        height: 35px;
+    }
+    .footer .f-top .f-mailing .mail_inp input::placeholder{
+        font-size: 10px;
+    }
+    .footer .f-top .f-mailing .mail_inp input:hover,:focus{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width : 768px){
+    .h-info-block{
+        margin-left: 20px;
+    }
+    .h-log-block{
+        margin-right: 20px;
+    }
+    .menu .logo{
+        margin-left: 20px;
+    }
+    .menu .nav-bar{
+        margin-right: 20px;
+    }
+    .h-info-block p span{
+        padding: 0 5px
+    }
+    .first_section .season .season-products .s-products img{
+        max-width: 160px;
+        max-height: 265px;
+    }
+    .first_section .season .season-products .s-products h3{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .second_section .collection-photo{
+        width: 880px;
+        height: 400px;
+    }
+    .first_section .new-collection{
+        width: 880px;
+        height: 400px;
+    }
+    .first_section .new-collection h2{
+        font-size: 30px;
+        margin: 220px 0 20px 0;
+    }
+    .first_section .new-collection hr{
+        margin-bottom: 40px;
+    }
+    .new-products .n-products img{
+        max-width: 260px;
+        max-height: 230px;
+    }
+    .footer .f-top h3{
+        padding: 15px 0 40px 0;
+    }
+    .footer .f-top .f-mailing .mail_inp button{
+        width: 115px;
+        height: 42px;
+        font-size: 10px;
+        
+    }
+}
